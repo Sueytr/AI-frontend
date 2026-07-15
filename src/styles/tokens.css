@@ -1,0 +1,81 @@
+/*
+  Design tokens.
+  Signature motif: a four-point "spark" glyph used as the brand mark,
+  the assistant avatar, and the thinking/loading indicator.
+  Default theme is dark (ink + warm brass spark); light theme is a warm
+  paper tone with a deeper amber accent for contrast.
+*/
+
+:root {
+  --bg-base: #0e1116;
+  --bg-surface: #141821;
+  --bg-elevated: #1b212c;
+  --bg-hover: #232a37;
+  --bg-input: #191f29;
+
+  --border: #262e3d;
+  --border-strong: #333d50;
+
+  --text-primary: #ece9e2;
+  --text-secondary: #9aa3b2;
+  --text-muted: #676f7f;
+
+  --accent: #eab454;
+  --accent-strong: #f5c879;
+  --accent-contrast: #1b1300;
+  --accent-soft: rgba(234, 180, 84, 0.14);
+
+  --success: #6ee7c8;
+  --danger: #f0625f;
+  --danger-soft: rgba(240, 98, 95, 0.14);
+
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.32);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.45);
+
+  --sidebar-width: 280px;
+  --topbar-height: 60px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --bg-base: #faf8f4;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f2efe6;
+  --bg-hover: #ece7da;
+  --bg-input: #ffffff;
+
+  --border: #e4e0d3;
+  --border-strong: #d3ccb9;
+
+  --text-primary: #1c1b17;
+  --text-secondary: #5b5648;
+  --text-muted: #8a8474;
+
+  --accent: #b5761e;
+  --accent-strong: #98620f;
+  --accent-contrast: #ffffff;
+  --accent-soft: rgba(181, 118, 30, 0.12);
+
+  --success: #1c8f6e;
+  --danger: #c23b38;
+  --danger-soft: rgba(194, 59, 56, 0.1);
+
+  --shadow-sm: 0 1px 2px rgba(28, 27, 23, 0.06);
+  --shadow-md: 0 8px 24px rgba(28, 27, 23, 0.08);
+  --shadow-lg: 0 20px 48px rgba(28, 27, 23, 0.14);
+
+  color-scheme: light;
+}
