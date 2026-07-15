@@ -4,7 +4,7 @@ import axios from "axios";
 // relative base URL works out of the box and also behind a reverse proxy
 // in production. Set VITE_API_BASE_URL to point at a separately-hosted
 // backend instead.
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = "https://ai-backend-ncxz.onrender.com";;
 
 const client = axios.create({ baseURL: API_BASE_URL, timeout: 15000 });
 
